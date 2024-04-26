@@ -1,10 +1,15 @@
-import { Inter, Roboto_Condensed } from "next/font/google";
+import { Inter, Kaushan_Script, Roboto_Condensed, Style_Script } from "next/font/google";
 import "./globals.css";
 
 const roboto = Roboto_Condensed({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
+const cursive=Kaushan_Script({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable:"--font-cursive"
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -14,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={`${roboto.className} ${cursive.variable}`}>
         <main className="h-full w-full px-6  sm:px-8  md:px-[2.5rem] xl:px-[4rem] 2xl:px-[8rem]">{children}</main>
       </body>
     </html>

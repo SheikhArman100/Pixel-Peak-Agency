@@ -1,20 +1,19 @@
 import SectionTitle from "@/components/SectionTitle.jsx";
-import { Bug, Monitor, Search, Smartphone } from "lucide-react";
+import { Bug, Globe, Monitor, Search, Smartphone } from "lucide-react";
 
 const Services = () => {
   return (
     <article className="w-full min-h-screen py-4 flex flex-col md:py-6">
       <div className="flex items-center justify-center">
-        <SectionTitle />
+        <SectionTitle title="Services"  icon={<Globe className="size-6" />}/>
       </div>
       <section className="flex-1 flex flex-col justify-center  gap-3 sm:gap-6 xl:gap-12 2xl:gap-20">
-        <h3 className="heading-3 sm:heading-2 md:heading-1 2xl:display-3 capitalize max-w-4xl text-center mx-auto ">
+        <h3 className="heading-3 sm:heading-2 md:heading-1 2xl:display-3 capitalize max-w-4xl text-center mx-auto font-light md:font-medium ">
           We offer comprehensive range of personalize services to meet your
-          
-          <span className="bg-orangeColor text-whiteColor ml-2 px-3 py-0 capitalize rounded-lg ">Unique needs.</span>
+          <span className="bg-orangeColor text-whiteColor ml-2 px-1 md:px-3 py-0 capitalize rounded-lg w-fit whitespace-nowrap ">Unique needs.</span>
         </h3>
         <div className="  flex items-center justify-center">
-          <div className="w-fit h-full grid grid-cols-2 xl:grid-cols-4 gap-4 auto-rows-fr">
+          <div className="w-fit h-full grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 auto-rows-fr">
             <Service
               icon={<Monitor className="stroke-orangeColor -rotate-45" />}
               title="Web Development"

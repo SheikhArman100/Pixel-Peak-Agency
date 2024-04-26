@@ -69,6 +69,9 @@
   .label {
     @apply text-[0.8rem] leading-[1.14rem] tracking-[0.012rem];
   }
+  .font2 {
+    font-family: var(--font-cursive);
+  }
   .glassEffect {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
