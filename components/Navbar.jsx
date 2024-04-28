@@ -7,8 +7,9 @@ import Link from "next/link.js";
 const Navbar = () => {
   return (
     <nav className="w-full h-16 flex items-center justify-between ">
-      <div>
+      <div className="flex items-center gap-x-2">
         <Image src={logo} height={50} width={50} alt="Logo" />
+        <Link href="/" className="heading-4 font2">Pixel Peak</Link>
       </div>
       <div className="h-full flex-1 t hidden md:flex justify-center">
         <ul className="h-full w-fit glassEffect flex items-center gap-x-40 px-12 body">
