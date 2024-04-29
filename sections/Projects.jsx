@@ -41,7 +41,7 @@ const Project = ({ project }) => {
         <h2 className='heading-3 md:heading-2 text-center font-medium lg:text-left'>
           {project.title}
         </h2>
-        <p className='body max-w-sm text-center lg:text-left'>
+        <p className='body max-w-sm text-center lg:text-left text-greyColor'>
           {project.description}
         </p>
         <div className='mt-3 flex gap-x-3'>
