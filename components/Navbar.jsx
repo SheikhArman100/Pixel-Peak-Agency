@@ -11,7 +11,7 @@ const Navbar = () => {
         <Image src={logo} height={50} width={50} alt="Logo" />
         <Link href="/" className="heading-4 font2">Pixel Peak</Link>
       </div>
-      <div className="h-full flex-1 t hidden md:flex justify-center">
+      <div className="h-full flex-1  hidden xl:flex justify-center">
         <ul className="h-full w-fit glassEffect flex items-center gap-x-40 px-12 body">
           <li>Home</li>
           <li>About</li>
