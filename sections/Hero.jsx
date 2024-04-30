@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <article className="w-full min-h-screen py-4 flex flex-col md:py-6">
       <Navbar />
-      <section className="w-full flex-1 flex flex-col gap-4 md:gap-12 mt-4 md:mt-28">
+      <section className="w-full flex-1 flex flex-col gap-4 md:gap-12 mt-14 md:mt-28">
         <div className="flex flex-col xl:flex-row justify-between xl:items-center">
           <h1 className="heading-2 sm:heading-1 md::display-3 2xl:display-2 font-light md:font-semibold w-full lg:w-fit capitalize ">
             Building digital products,

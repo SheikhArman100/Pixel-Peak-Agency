@@ -12,7 +12,7 @@ const ContactUs = () => {
         />
       </div>
       <section className='relative flex-1 flex flex-col items-center justify-center py-20'>
-        <div className='flex w-full max-w-7xl flex-col lg:flex-row justify-center lg:gap-x-10 xl:gap-x-20 2xl:gap-x-32 glassEffect2 p-2 sm:p-6 lg:py-10 '>
+        <div className='flex w-full max-w-7xl flex-col lg:flex-row justify-center lg:gap-x-10 xl:gap-x-20 2xl:gap-x-32 glassEffect2 p-4 sm:p-6 lg:py-10 '>
           <div className='w-full lg:flex-1 max-w-xl'>
             <h2 className='heading-2 sm:heading-1 2xl:display-3 font-medium'>
               Interested in working with us?

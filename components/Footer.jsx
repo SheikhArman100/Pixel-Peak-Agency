@@ -1,62 +1,62 @@
-import { ArrowRight, Facebook, Instagram, Twitter } from 'lucide-react'
+import { ArrowRight, Facebook, Instagram, Sparkle, Twitter } from 'lucide-react'
 import Link from 'next/link.js'
 import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="w-full flex flex-col gap-y-8 bg-orangeColor px-6  sm:px-8  md:px-[2.5rem] xl:px-[4rem] 2xl:px-[8rem]  ">
+    <footer className="w-full flex flex-col gap-y-8 bg-black px-6  sm:px-8  md:px-[2.5rem] xl:px-[4rem] 2xl:px-[8rem]  ">
       <article className="w-full grid grid-cols-1 md:grid-cols-2 gap-x-[8rem] ">
         <section className="flex flex-col gap-y-2 py-[2rem] border-b border-customWhite">
           <div className="flex items-center">
-            
-            <h3 className="heading-5 uppercase font-semibold">Studio</h3>
+          <Sparkle  className="stroke-none fill-orangeColor size-8" />
+            <h3 className="heading-5 uppercase font-semibold">Info</h3>
           </div>
           <ul className="flex items-center gap-2 flex-wrap   uppercase ">
-            <li className="py-2 px-3 border border-customWhite label font-semibold rounded-full">
-              Features
+            <li className="py-2 px-3 border border-whiteColor label md:body font-semibold rounded-full">
+              Services
             </li>
-            <li className="py-2 px-3 border border-customWhite label font-semibold rounded-full">
+            <li className="py-2 px-3 border border-whiteColor label md:body font-semibold rounded-full">
               About
             </li>
-            <li className="py-2 px-3 border bg-customWhite text-customBlack label font-bold rounded-full flex items-center gap-x-1">
-              Projects <ArrowRight size={16} className="-rotate-45" />
+            <li className="py-2 px-3 border bg-whiteColor text-blackColor border-whiteColor label md:body font-bold rounded-full flex items-center gap-x-1">
+              Projects <ArrowRight  className="-rotate-45 size-5" />
             </li>
-            <li className="py-2 px-3 border border-customWhite label font-semibold rounded-full">
-              Blog
+            <li className="py-2 px-3 border border-whiteColor label md:body font-semibold rounded-full">
+              Contact
             </li>
           </ul>
         </section>
         <section className="flex flex-col gap-y-2 py-[2rem] border-b border-customWhite">
           <div className="flex items-center">
-            
+          <Sparkle  className="stroke-none fill-orangeColor size-8" />
             <h3 className="heading-5  uppercase font-semibold">
               Discover
             </h3>
           </div>
           <ul className="flex items-center gap-2 flex-wrap   uppercase ">
-            <li className="py-2 px-3 border border-customWhite label font-semibold rounded-full">
+            <li className="py-2 px-3 border border-whiteColor label md:body font-semibold rounded-full">
               Photography
             </li>
-            <li className="py-2 px-3 border border-customWhite label font-semibold rounded-full">
+            <li className="py-2 px-3 border border-whiteColor label md:body font-semibold rounded-full">
               Cinematography
             </li>
 
-            <li className="py-2 px-3 border border-customWhite label font-semibold rounded-full">
+            <li className="py-2 px-3 border border-whiteColor label md:body font-semibold rounded-full">
               Commercial
             </li>
           </ul>
         </section>
         <section className="flex flex-col gap-y-2 py-[2rem]">
           <div className="flex items-center">
-            
+          <Sparkle  className="stroke-none fill-orangeColor size-8" />
             <h3 className="heading-5 uppercase font-semibold">Contact</h3>
           </div>
           <ul className="flex items-center gap-2 flex-wrap     ">
-            <li className="py-2 px-3 border border-customWhite label font-semibold rounded-full">
+            <li className="py-2 px-3 border border-whiteColor label md:body font-semibold rounded-full">
               [+88] 01761264426
             </li>
 
-            <li className="py-2 px-3 border bg-customWhite text-customBlack label font-bold rounded-full flex items-center gap-x-1">
+            <li className="py-2 px-3 border bg-whiteColor text-blackColor border-whiteColor label md:body font-bold rounded-full flex items-center gap-x-1">
             <span>contact.pixelpeak.solutions@gmail.com</span>
               <ArrowRight size={16} className="-rotate-45" />
             </li>
@@ -93,11 +93,11 @@ const Footer = () => {
             Pixel peak
           </span>
         </div>
-        <p className=" uppercase text-sm font-medium flex items-center  justify-center"><span className='hidden sm:block md:hidden lg:block'>All rights reserved to</span> @Sheikh Arman 2023</p>
+        <p className=" uppercase text-sm font-medium flex items-center  justify-center"><span className='hidden sm:block md:hidden lg:block'>All rights reserved to</span> @Pixel Peak 2023</p>
         <div className="hidden md:flex items-center justify-end gap-x-1">
-            <Twitter size={24} className="stroke-customBlack fill-customOrange cursor-pointer"/>
-            <Instagram size={24} className="stroke-customBlack fill-customOrange cursor-pointer"/>
-            <Facebook size={24} className="stroke-customBlack fill-customOrange cursor-pointer"/>
+            <Twitter className="stroke-blackColor fill-orangeColor cursor-pointer size-7"/>
+            <Instagram  className="stroke-blackColor fill-orangeColor cursor-pointer size-7"/>
+            <Facebook  className="stroke-blackColor fill-orangeColor cursor-pointer size-7"/>
         </div>
       </section>
     </footer>
